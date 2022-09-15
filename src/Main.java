@@ -3,7 +3,7 @@ public class Main {
 
         System.out.println("Расчет начисленных миль за купленный билет:");
 
-        int ticketPrice = 9; // Ваша стоимость билета
+        int ticketPrice = 1000; // Ваша стоимость билета
         if (ticketPrice > 20) {
             int bonusPrice = 20; // стоимость одной начисленной мили
             int bonus = ticketPrice / bonusPrice;
